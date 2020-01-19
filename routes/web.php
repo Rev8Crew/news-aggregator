@@ -15,7 +15,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/grab','GrabController@start');
 
 Route::prefix('api')->group(function(){
 
